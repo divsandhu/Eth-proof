@@ -1,6 +1,6 @@
 # MyToken Smart Contract(ETH Proof Final Project)
 
-This repository contains the `myToken` smart contract for the ETH-Proof Final Project Assessment. The contract implements a simple token with minting and burning functionalities.
+This repository contains the a simple smart contract for the ETH-Proof Final Project Assessment. The contract implements a simple token with minting and burning functionalities.
 
 ## Table of Contents
 
@@ -12,12 +12,11 @@ This repository contains the `myToken` smart contract for the ETH-Proof Final Pr
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Deployment](#deployment)
-  - [Usage](#usage)
 - [License](#license)
 
 ## Introduction
 
-The `myToken` smart contract allows for the creation and management of a custom token. The contract includes functionalities to mint new tokens and burn existing tokens, while keeping track of the total supply and individual balances.
+This smart contract allows for the creation and management of a custom token. The contract includes functionalities to mint new tokens and burn existing tokens, while keeping track of the total supply and individual balances.
 
 ## Contract Details
 
@@ -61,39 +60,9 @@ The `myToken` smart contract allows for the creation and management of a custom 
 
 ### Deployment
 
-1. Open the `myToken` contract in Remix IDE or your preferred development environment.
+1. Open the this contract in Remix IDE or your preferred development environment.
 2. Compile the contract using the Solidity compiler version ^0.8.18.
 3. Deploy the contract to a local Ethereum network or any test network.
-
-### Usage
-
-1. **Minting Tokens**
-   - Call the `minting` function with the desired address and amount of tokens to mint.
-   - Example:
-     ```solidity
-     myToken.minting("0xYourAddress", 100);
-     ```
-
-2. **Burning Tokens**
-   - Call the `burning` function with the desired address and amount of tokens to burn.
-   - Example:
-     ```solidity
-     myToken.burning("0xYourAddress", 50);
-     ```
-
-3. **Checking Balances**
-   - Use the `balances` mapping to check the balance of any address.
-   - Example:
-     ```solidity
-     uint balance = myToken.balances("0xYourAddress");
-     ```
-
-4. **Checking Total Supply**
-   - Use the `totalSupply` public variable to check the total supply of the token.
-   - Example:
-     ```solidity
-     uint totalSupply = myToken.totalSupply();
-     ```
 
 ## License
 
